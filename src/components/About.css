@@ -1,0 +1,90 @@
+.contact-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:2cm;
+    background-color: rgba(201, 176, 144, 0.164);
+}
+.about{
+    padding: 2cm;
+    background-color: rgba(201, 176, 144, 0.164);
+}
+.about h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.imga{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.contact-page h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/*  */
+.contact-page {
+    max-width: 100%;
+    padding: 3cm;
+  }
+  
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  ul.contact-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.contact-info li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  ul.contact-info li i {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  .btn {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  
+  .btn-facebook {
+    background-color: #3b5998;
+    color: #fff;
+  }
+  
+  .btn-instagram {
+    background-color: #e1306c;
+    color: #fff;
+  }
+  
+  .twitter-button {
+    background-color: #00acee;
+    color: #fff;
+  }
+  
+  .qr-code {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  iframe {
+    margin-top: 20px;
+    border: none;
+  }

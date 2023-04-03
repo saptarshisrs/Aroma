@@ -1,0 +1,66 @@
+.large-badge {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  .center-badge {
+    display: flex;
+    justify-content: center;
+  }
+  .card-container {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+    padding: 1cm;
+    padding-bottom: 2cm;
+    background-color: rgba(201, 176, 144, 0.164);
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+  .card-img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .Header{
+    text-align: center;
+    padding-top: 0.5cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list li {
+    flex: 1 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #ccc;
+    text-align: center;
+  }
+  .Menu{
+    padding-bottom: 2cm;
+  }
+  .Menu h2{
+    text-align: center;
+    padding: 0.5cm;
+  }
+  .Menu h4{
+    text-align: center;
+    padding: 0.25cm;
+  }
+  .smenu{
+    background-color: rgba(201, 176, 144, 0.164);
+  }
+  .smenu hr{
+    width: 100%;
+    
+  }
+  .Header hr{
+    width:100%;
+  }
