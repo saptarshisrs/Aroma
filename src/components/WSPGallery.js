@@ -9,7 +9,7 @@ import {
 
 import './wsp-gallery.css'
 
-const WSPGallery = ({galleryImages}) => {
+const WSPGallery = ({galleryImages, section}) => {
 
   const [slideNumber, setSlideNumber] = useState(0)
   const [openModal, setOpenModal] = useState(false)
@@ -40,7 +40,7 @@ const WSPGallery = ({galleryImages}) => {
 
   return (
     <div className='gal'>
-      <h1>Gallery</h1>
+      <h1>{section} Gallery</h1>
       {openModal && 
         <div className='sliderWrap'>
           <FontAwesomeIcon icon={faCircleXmark} className='btnClose' onClick={handleCloseModal}  />
@@ -48,16 +48,10 @@ const WSPGallery = ({galleryImages}) => {
           <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide} />
           <div className='fullScreenImage'>
             <img src={galleryImages[slideNumber].img} alt='' />
+            
           </div>
         </div>
       }
-
-      {/* <br />
-      Current slide number:  {slideNumber}
-      <br />
-      Total Slides: {galleryImages.length}
-      <br /><br /> */}
-
       <div className='galleryWrap'>
         {
           galleryImages && galleryImages.map((slide, index) => {
@@ -67,7 +61,7 @@ const WSPGallery = ({galleryImages}) => {
                 key={index}
                 onClick={ () => handleOpenModal(index) }
               >
-                <img src={slide.img} alt='' />
+                <img src={slide.img} alt='' style={{ height: '300px', width: '400px' }} />
               </div>
             )
           })
@@ -79,3 +73,4 @@ const WSPGallery = ({galleryImages}) => {
 }
 
 export default WSPGallery
+

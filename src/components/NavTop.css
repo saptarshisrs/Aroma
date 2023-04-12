@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: row;
+    }
+    .nav-item {
+      margin: 0.5rem 0;
+    }
+  }
+  @media (max-width: 768px) {
+    .nav-link {
+      margin-right: 10px;
+    }
+  }
+  .navbar-nav .nav-link {
+    font-size: 20px;
+  }
+
+  .navbar-custom {
+    background-color: #f5a300d3!important;
+  }
+  .navbar-custom {
+    padding: 0.5rem 1rem; /* adjust padding as needed */
+  }
+  
+  .navbar-custom .ml-auto {
+    margin-right: auto;
+  }
+  
+  .navbar-custom .nav-link {
+    margin-left: 1rem; /* adjust margin as needed */
+  }
+  .active-link {
+    text-decoration: underline !important;
+  }
+  

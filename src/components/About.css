@@ -2,12 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding:2cm;
-    background-color: rgba(201, 176, 144, 0.164);
+    
+    background-color: rgba(255, 145, 0, 0.164);
 }
 .about{
     padding: 2cm;
-    background-color: rgba(201, 176, 144, 0.164);
+    padding-top: 2cm;
+    background-color: rgba(255, 145, 0, 0.164);
 }
 .about h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -15,17 +16,20 @@
 }
 .imga{
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content: center;
+    padding-bottom: 1cm;
+    height: 300px;
+    width: 300px;
 }
 .contact-page h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
-/*  */
 .contact-page {
     max-width: 100%;
-    padding: 3cm;
+    padding-left: 2cm;
+    padding-bottom: 2cm;
+    padding-right: 2cm;
   }
   
   h2 {
@@ -73,8 +77,8 @@
     color: #fff;
   }
   
-  .twitter-button {
-    background-color: #00acee;
+  .btn-whatsapp {
+    background-color: #00A884;
     color: #fff;
   }
   
@@ -88,3 +92,57 @@
     margin-top: 20px;
     border: none;
   }
+  @media (max-width: 768px) {
+  .imga img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.aboutmain{
+  text-align: center;
+  font-size: 40px !important;
+}
+.housechoices{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card-img {
+  max-height: 250px;
+  object-fit: cover;
+}
+.large-badge {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.center-badge {
+  display: flex;
+  justify-content: center;
+}
+.map{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  padding-bottom: 3cm;
+  background-color: rgba(255, 145, 0, 0.164);
+  flex-wrap: wrap;
+}
+.h4a{
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .about {
+    padding: 10px;
+   
+  }
+}
+@media (max-width: 767px) {
+  .map iframe {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+.bodytc{
+  font-size: 20px;
+}

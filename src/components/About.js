@@ -1,59 +1,95 @@
 /* eslint-disable */
-import React from 'react';
-import { QRCodeCanvas } from 'qrcode.react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
 import "./About.css";
-import aromalogo1 from "../assets/aromalogo1.jpg"; 
+import Footer from "../components/Footer";
+import Aro from "../assets/AR.mp4";
 
 const ContactPage = () => {
   return (
     <>
-      <div className='about'>
-        <h1>AROMA CATERER AND DECORATORS</h1><br />
-        <div className='imga'>
-        <img src={aromalogo1} alt="alt" />
+      <div className="about">
+        <h1>AROMA CATERER AND DECORATORS(Since 1991)</h1>
+        <br />
+        <div
+          className="parent-container"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <div className="imga">
+            <video autoPlay muted width={window.innerWidth} height="360">
+              <source src={Aro} type="video/mp4" />
+            </video>
+            {/* <img src={AROMA} alt="alt" /> */}
+          </div>
         </div>
-        <p>Since 1991 we are bringing joy to our customers.We at aroma tends to provide best of services at nominal prices.Leave all worries to us and enjoy your occasion.Sincerely aroma. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quasi placeat minus animi perferendis quibusdam, debitis sed dolorem error pariatur corporis autem rerum ut expedita. Esse similique nobis labore rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi impedit natus, veritatis unde similique molestias dolor animi nihil molestiae quia aspernatur, doloribus dicta tempora. Nostrum, eos quisquam, necessitatibus unde earum cumque ratione eius labore reprehenderit nemo adipisci explicabo, ullam ad quod quae voluptatum et! Doloribus nobis magnam accusantium? Aliquam vel fugit tempore, velit magnam nisi optio eveniet corporis neque tenetur quibusdam consectetur in. Architecto nobis veritatis ea porro atque laborum repellendus accusantium! Sunt laborum eos dolorem temporibus nihil ut. Adipisci, consequuntur. Ipsa qui vitae quo. Modi fugiat et impedit nisi nihil totam reprehenderit voluptate aliquid dolorum quasi ducimus, excepturi eos, voluptatibus sunt eligendi! Amet veniam iste optio fugiat deserunt saepe magnam ratione earum cum voluptatem, mollitia ducimus autem quod ab suscipit, at, quis recusandae perferendis possimus molestias cupiditate ex? Veritatis ex praesentium nihil quo quibusdam obcaecati illo aliquam repellendus voluptatem impedit velit molestiae cumque est nobis, perferendis eligendi facilis iure similique? Neque, voluptatibus vel. Quae, nulla, quisquam soluta distinctio commodi quod illum, nihil itaque corrupti enim atque sint inventore eaque praesentium natus cupiditate aut? Velit perspiciatis, quod illo dolorum facilis eum quaerat praesentium adipisci? Aperiam animi, necessitatibus est ullam eligendi nostrum debitis. Deserunt id iusto impedit, odio ad reiciendis facilis, veritatis nulla quos cum pariatur vero dolores fuga saepe soluta perspiciatis veniam odit consectetur. Libero minus optio, neque repellendus dignissimos eius animi illo mollitia totam delectus nemo incidunt praesentium ratione veniam voluptates corporis maxime molestias excepturi, sequi soluta saepe tempora repellat. Exercitationem, eveniet. Dolore, aliquam? Aperiam ducimus voluptates dolor eius quidem corporis accusantium, fugit ipsa?</p>
-      </div>
-      <div className="contact-page">
-        <h2>Contact Us</h2>
-              <p>If you have any questions or concerns, feel free to reach out to us!</p>
-              <ul className="contact-info">
-                <li><i className="fas fa-map-marker-alt"></i>12 Laxmi Narayan Motitlal Road,Behala,Kolkata-700061</li>
-                <li><i className="fas fa-phone"></i> (+91) 9231684345/8013572929</li>
-                <li><i className="fas fa-envelope"></i> aroma@gmail.com</li>
-              </ul>
-              <div>
-              <Button className="mx-3" variant="warning" href="mailto:email@example.com">Email Us</Button>
-              <Button className="btn-facebook mx-3" variant="outline-primary" href="https://www.facebook.com/">
-                <FontAwesomeIcon icon={faFacebook} /> Facebook
-              </Button>
-
-              <Button className="btn-instagram mx-3" variant="outline-primary" href="https://www.instagram.com/">
-                <FontAwesomeIcon icon={faInstagram} /> Instagram
-              </Button>
-              <Button variant="outline-primary mx-3" href="https://twitter.com/" className="twitter-button">
-                <FontAwesomeIcon icon={faTwitter} /> Twitter
-              </Button>
-              </div><br />
-              <div className="qr-code">
-                <QRCodeCanvas value="https://www.example.com" size={128} />
-              </div>
+        <div>
+          <br />
+          <br />
+          <br />
+          <h1>House Booking Terms and Conditions</h1>
+          <div className="bodytc">
+          <ol>
+            <li>
+              An amount of Rs 10,000/- (rupees ten thousands only) is to be paid
+              for booking, balance amount must be paid 7 days before occasion.
+              Booking money is refundable only if rebooking of the house is done
+              on the same date by any other entity and cancellation letter must
+              be submitted. Timing is 8am to 7 am (i.e. 23 hours).
+            </li>
+            <li>
+              Water, light, fans, 100 pcs chair and cover, 10 pcs dining table,
+              reception hall with 3 pcs sofa set, & Kitchen tent (for Suvecha).
+            </li>
+            <li>
+              Extra table, chair, sofa, flower gate, flower dais, outside light,
+              Pandal, carpeting, flower background, wooden throne and other
+              charges are extra, which will be supplied by us within reasonable
+              prices. Outside suppliers & caterers are not allowed.
+            </li>
+            <li>
+              Using of duct tapes, nails on furniture and wall are prohibited,
+              fines will have to be paid for any kind of damage to property.
+            </li>
+            <li>
+              Electric cost of Coffee machine, grinder machine, geyser and video
+              point is extra and at the time of blackout all appliances will be
+              disabled. Air-conditioner charges for 6 hours per AC is Rs 1000/-
+              (including electric charge). In case of power cut total 40 pcs of
+              fan and light will be provided inside house for 2 hrs by inverter
+              system.
+            </li>
+            <li>
+              Dinner must be completed within 11:30 pm. We do not allow loud
+              sound from 10 pm, outside sound box, DJ, singer, dancer, fire
+              crackers, etc are not allowed. Consumption of alcohol is not
+              allowed.
+            </li>
+            <li>
+              We are not responsible for your gift items, ornaments and luggage.
+              Car parking is your responsibility.
+            </li>
+            <li>
+              We are not responsible for any natural calamity (act of god).
+            </li>
+            <li>
+              Rules and regulation can be changed to maintain the social and
+              environmental decorum and for a peaceful occasion and your
+              well-being.
+            </li>
+          </ol>
          
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.3915925236697!2d88.3050311!3d22.4894864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027a6a859e740b%3A0xc2a3d2e855f3c9f1!2sAroma%20Festive%20Hall!5e0!3m2!1sen!2sin!4v1680444609220!5m2!1sen!2sin" width={window.innerWidth} height="600"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          {/* console.log */}
+          <div className="aboutmain">
+            <p>
+              If you are satisfied with the above said terms and condition then
+              you may proceed for booking.
+            </p>
+          </div>
+          </div>
+        </div>
       </div>
 
-
+      <Footer />
     </>
   );
 };
 
 export default ContactPage;
-
-
-
-
-

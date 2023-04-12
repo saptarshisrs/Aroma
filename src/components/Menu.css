@@ -12,7 +12,7 @@
   justify-content: space-evenly;
     padding: 1cm;
     padding-bottom: 2cm;
-    background-color: rgba(201, 176, 144, 0.164);
+    background-color: rgba(255, 145, 0, 0.164);
   }
   
   .card {
@@ -40,7 +40,7 @@
     flex: 1 0 25%;
     box-sizing: border-box;
     padding: 10px;
-    border: 2px solid #ccc;
+    border: 1px solid #000000;
     text-align: center;
   }
   .Menu{
@@ -55,7 +55,7 @@
     padding: 0.25cm;
   }
   .smenu{
-    background-color: rgba(201, 176, 144, 0.164);
+    background-color: rgba(255, 145, 0, 0.164);
   }
   .smenu hr{
     width: 100%;

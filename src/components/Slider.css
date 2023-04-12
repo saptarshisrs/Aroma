@@ -13,7 +13,7 @@
     height: 100%;
     opacity: 0;
     transform: translateX(-50%);
-    transition: all 0.5s ease;
+    transition: all 0.01s ease;
   }
   
   /* @media screen and (min-width: 600px) {
@@ -122,3 +122,33 @@
     height: fit-content;
   }
   
+  .testimg{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+  }
+  .testimg img{
+    padding: 0.5cm;
+  }
+  .review-card {
+    width: 400px;
+    /* height: 500px; */
+    border-radius:1cm;
+    
+  }
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .test{
+    background-color: rgba(255, 145, 0, 0.164);
+  }
+  
+  .about{
+    padding-bottom: 2cm;
+    padding-left: 2cm;
+    padding-right:2cm;
+    background-color: rgba(255, 145, 0, 0.164);
+}
