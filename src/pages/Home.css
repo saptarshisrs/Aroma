@@ -152,3 +152,10 @@
     padding-right:2cm;
     background-color: rgba(255, 145, 0, 0.164);
 }
+.slider-container .AwesomeSlider {
+  border: none !important;
+}
+
+.slider-container .AwesomeSlider img {
+  border: none !important;
+}

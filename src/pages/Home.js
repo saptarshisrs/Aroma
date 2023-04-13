@@ -1,5 +1,5 @@
 /* eslint-disable */
-import "./Slider.css";
+import "./Home.css";
 import { Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/Footer';
@@ -19,7 +19,6 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 import my5 from "../assets/my5.jpg";
 import my7 from "../assets/my7.jpg";
 import g8 from "../assets/g8.jpg";
-import './slider1.css'
 
 const Slider = () => {
 
@@ -212,7 +211,9 @@ const Slider = () => {
       </Card.Body>
     </Card>
     </div>
+    
     </div>
+    {/* <CarouselFadeExample/> */}
     <div className="contact-page">
         <h2>Contact Us</h2>
         <p>If you have any questions or concerns, feel free to reach out to us!</p>

@@ -1,17 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Gallery from './components/Gallery';
+import Gallery from './pages/Gallery';
 import NavTop from './components/NavTop';
-import Slider from './components/Slider';
+import Slider from './pages/Home';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 
 } from "react-router-dom";
-import Menu from './components/Menu';
-import About from './components/About';
-import Book from './components/Book';
+import Menu from './pages/Menu';
+import About from './pages/T&C';
+import Book from './pages/Book';
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import ScrollToTop from './components/ScrollToTop';
 

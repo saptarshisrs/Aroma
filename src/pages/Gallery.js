@@ -1,5 +1,5 @@
 /* eslint-disable */
-import WSPGallery from './WSPGallery';
+import WSPGallery from '../components/WSPGallery';
 import g1 from "../assets/g1.jpg"; 
 import g2 from "../assets/g2.jpg"; 
 import g7 from "../assets/g7.jpg"; 
@@ -28,7 +28,7 @@ import f2 from "../assets/f2.jpg";
 import f3 from "../assets/f3.jpg";  
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import Footer from './Footer';
+import Footer from '../components/Footer';
 
 const Gallery = () => {
 

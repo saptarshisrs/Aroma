@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from "react";
-import "./About.css";
+import "./T&C.css";
 import Footer from "../components/Footer";
 import Aro from "../assets/AR.mp4";
 
